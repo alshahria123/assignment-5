@@ -24,7 +24,7 @@
                 <div>
                     <img src="./assets/checkbox.png" alt="">
                 </div>
-                <span class="font-bold text-2xl">23</span>
+                <span id="point" class="font-bold text-2xl">23</span>
                </div>
                <div>
                 <img src="/assets/theme-btn.png" alt="">
@@ -42,7 +42,7 @@
                 </div>
                 <div>
                    <h1 class="text-2xl text-gray-500">Take Assigned</h1>
-                   <h1 class="text-3xl font-bold">6</h1>
+                   <h1 id="task-no" class="text-3xl font-bold">6</h1>
                 </div>
             </div>
             <div class="bg-blue-500 w-2/4 flex text-white text-center py-4 my-4 px-4 rounded-lg">
@@ -65,48 +65,60 @@
             <p class="p-2 rounded-md bg-white text-gray-500 mr-40">Shop Ease</p>
                <h3 class="text-lg font-bold">Fix Mobile Button Issue</h3>
                <p class="text-sm text-gray-600">A cool component that fixes a bug.</p>
-               <p class="text-xs text-gray-500 mt-2">Deadline: 21 March 2025</p>
-               <button class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+              <div class="flex justify-between">
+                <p class="text-xs text-gray-500 mt-2">Deadline <br> 21 March 2025</p>
+                <button id="card-1" class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+              </div>
            </div>
 
            <div class="bg-gray-50 p-4 shadow rounded-lg">
             <p class="p-2 rounded-md bg-white text-gray-500 mr-40">Soft Pay</p>
                <h3 class="text-lg font-bold">Add Pay Success Modal</h3>
                <p class="text-sm text-gray-600">A component that confirms payments.</p>
-               <p class="text-xs text-gray-500 mt-2">Deadline: 26 March 2025</p>
-               <button class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+               <div class="flex justify-between">
+                <p class="text-xs text-gray-500 mt-2">Deadline <br> 21 March 2025</p>
+                <button id="card-2" class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+              </div>
            </div>
 
            <div class="bg-gray-50 p-4 shadow rounded-lg">
             <p class="p-2 rounded-md bg-white text-gray-500 mr-40">Meta</p>
                <h3 class="text-lg font-bold">Add new reaction</h3>
                <p class="text-sm text-gray-600">A feature that adds new emoji reactions.</p>
-               <p class="text-xs text-gray-500 mt-2">Deadline: 31 March 2025</p>
-               <button class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+               <div class="flex justify-between">
+                <p class="text-xs text-gray-500 mt-2">Deadline <br> 21 March 2025</p>
+                <button id="card-3" class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+              </div>
            </div>
 
            <div class="bg-gray-50 p-4 shadow rounded-lg">
             <p class="p-2 mr-40 rounded-md bg-white text-gray-500">Programming Hero</p>
                <h3 class="text-lg font-bold">Fix Video Loading Issue</h3>
                <p class="text-sm text-gray-600">Solves slow video loading problems.</p>
-               <p class="text-xs text-gray-500 mt-2">Deadline: 3 March 2025</p>
-               <button class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+               <div class="flex justify-between">
+                <p class="text-xs text-gray-500 mt-2">Deadline <br> 21 March 2025</p>
+                <button id="card-4" class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+              </div>
            </div>
 
            <div class="bg-gray-50 p-4 shadow rounded-lg">
             <p class="p-2 mr-40 rounded-md bg-white text-gray-500">Google LLC</p>
                <h3 class="text-lg font-bold">Integrate AI Search</h3>
                <p class="text-sm text-gray-600">AI-powered search functionality.</p>
-               <p class="text-xs text-gray-500 mt-2">Deadline: 4 April 2025</p>
-               <button class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+               <div class="flex justify-between">
+                <p class="text-xs text-gray-500 mt-2">Deadline <br> 21 March 2025</p>
+                <button id="card-5" class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+              </div>
            </div>
 
            <div class="bg-gray-50 p-4 shadow rounded-lg">
             <p class="p-2 rounded-md bg-white text-gray-500 mr-40">Palygon Tech</p>
                <h3 class="text-lg font-bold">Review Ami Probashi Site</h3>
                <p class="text-sm text-gray-600">A detailed review of the project.</p>
-               <p class="text-xs text-gray-500 mt-2">Deadline: 5 May 2025</p>
-               <button class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+               <div class="flex justify-between">
+                <p class="text-xs text-gray-500 mt-2">Deadline <br> 21 March 2025</p>
+                <button id="card-6" class="mt-3 px-4 py-2 bg-blue-500 text-white rounded">Completed</button>
+              </div>
            </div>
        </div>
    </div>
@@ -119,10 +131,14 @@
             <h3 class="text-lg">Activity Log</h3>
           </div>
            <button class= "mt-2 px-4 py-2 bg-blue-500 text-white rounded">Clear History</button>
+           <div id="history">
+
+           </div>
        </div>
    </section>
 
     </div>
+    <script src="./js/button.js"></script>
 
 </body>
 </html>
