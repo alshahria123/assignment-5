@@ -38,7 +38,7 @@ document.getElementById("card-2").addEventListener('click', function(){
     let date = new Date();
 
     const p = document.createElement("p");
-    p.innerText = "You have Complete The Task Fix Mobile Button Issue at " + date
+    p.innerText = "You have Complete The Task Add Dark Mode at " + date
     history.appendChild(p);
     this.disabled = true;
     document.getElementById("card-2").classList.add("bg-gray-400");
@@ -60,7 +60,7 @@ document.getElementById("card-3").addEventListener('click', function(){
     let date = new Date();
 
     const p = document.createElement("p");
-    p.innerText = "You have Complete The Task Fix Mobile Button Issue at " + date
+    p.innerText = "You have Complete The Task Optimize  Home page at " + date
     history.appendChild(p);
     this.disabled = true;
     document.getElementById("card-3").classList.add("bg-gray-400");
@@ -82,7 +82,7 @@ document.getElementById("card-4").addEventListener('click', function(){
     let date = new Date();
 
     const p = document.createElement("p");
-    p.innerText = "You have Complete The Task Fix Mobile Button Issue at " + date
+    p.innerText = "You have Complete Add new emoji at " + date
     history.appendChild(p);
     this.disabled = true;
     document.getElementById("card-4").classList.add("bg-gray-400");
@@ -104,7 +104,7 @@ document.getElementById("card-5").addEventListener('click', function(){
     let date = new Date();
 
     const p = document.createElement("p");
-    p.innerText = "You have Complete The Task Fix Mobile Button Issue at " + date
+    p.innerText = "You have Complete The Task Integrate OpenAI API at " + date
     history.appendChild(p);
     this.disabled = true;
     document.getElementById("card-5").classList.add("bg-gray-400");
@@ -126,7 +126,7 @@ document.getElementById("card-6").addEventListener('click', function(){
     let date = new Date();
 
     const p = document.createElement("p");
-    p.innerText = "You have Complete The Task Fix Mobile Button Issue at " + date
+    p.innerText = "You have Complete The Task Improve Job searching at " + date
     history.appendChild(p);
     this.disabled = true;
     document.getElementById("card-6").classList.add("bg-gray-400");
