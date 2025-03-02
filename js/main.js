@@ -8,3 +8,8 @@ document.getElementById("Clear-history").addEventListener('click', function(){
     document.getElementById("history").innerHTML = "";  
 })
 
+
+
+document.getElementById("cenge-bg").addEventListener('click', function(){
+    document.getElementById("body").style.backgroundColor = "red";
+})
